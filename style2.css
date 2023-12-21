@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -2px 5px 10px black;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.right{
+    width:50%;
+    height: 100%;
+    background: purple;
+    border-radius: 100px 0 0 100px;
+}
